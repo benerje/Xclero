@@ -1,0 +1,29 @@
+.card{
+    zoom:0.5;
+    margin:10px;
+    padding:10px;
+    width:800px;
+    position: relative;
+max-width: 100%;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.card:hover .overlay{
+    opacity:0.4
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #a3c7d3;
+  }
